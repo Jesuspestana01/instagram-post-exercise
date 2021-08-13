@@ -1,0 +1,66 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.postHeader{
+    display: flex;
+}
+
+.igPost{
+    width: 25rem;
+    height: 35.625rem;
+    background-color: white;
+}
+
+.igPost .fa-html5{
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 0 0.5rem 0;
+}
+
+.igPost .fa-ellipsis-v{
+    font-size: 1.8rem;
+    align-self: center;
+    display: inline-block;
+    justify-content: flex-end;
+    padding-left: 17rem;
+}
+
+.postImage{
+    background-image: url('https://picsum.photos/400/300?random=1');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position: center;
+    height: 18rem;
+    background-size: cover;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.postIcon{
+    display: inline-block;
+}
+
+.postIcons i{
+    font-size: 1.5rem;
+    padding: 1rem 0.2rem 0;
+}
+
+.postIcons .fa-heart{
+    padding-left: 0.8rem;
+}
+
+.postIcons .fa-bookmark{
+    padding-left: 15.8rem;
+}
+
+.postContent{
+    padding: 0.5rem 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+}
